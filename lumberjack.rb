@@ -7,7 +7,7 @@ class Lumberjack < Formula
   bottle :unneeded
 
   def install
-    mv "lumberjack_darwin_amd64", "lumberjack"
+    mv bin/"lumberjack_darwin_amd64", bin/"lumberjack"
     bin.install "lumberjack"
   end
 
